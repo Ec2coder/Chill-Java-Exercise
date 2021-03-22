@@ -12,6 +12,7 @@ public class exercise34{
     String srt = reader.nextLine();
 
     //el split lo que hace es es eliminar el caracter que le pasamos como parametro al metodo split, si le pasamos. 
+    
     String palabras[] = srt.split(" ");
 
     for (int i = 0; i < palabras.length; i++) {
