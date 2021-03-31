@@ -1,3 +1,4 @@
+//35) Crea un enum con los días de la semana, pide un día de la semana e indica si es laboral o no (en el main). 
 package DDDRbasic;
 
 import java.util.*;
@@ -21,13 +22,13 @@ public class exercise35{
       case MIERCOLES:
       case JUEVES:
       case VIERNES:
-		    System.out.println("Es un dia de semena");
-    		break;
+	System.out.println("Es un dia de semena");
+	break;
 
       case SABADO:
       case DOMINGO:
-		    System.out.println("Es fin de semana");
-		    break;
+	System.out.println("Es fin de semana");
+	break;
     }
   }
 } 
